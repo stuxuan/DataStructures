@@ -10,7 +10,7 @@ protected:
 	int arrayLength;						// 容量
 	int listSize;							// 元素个数
 	bool checkIndex(int theIndex) const;	// 检查索引是否有效
-	void changeLength();				// 扩充数组长度
+	void changeLength();					// 扩充数组长度
 
 public:
 	// 构造函数
@@ -78,8 +78,6 @@ ArrayList<T>::ArrayList(const ArrayList<T>& theList)
 template<class T>
 bool ArrayList<T>::checkIndex(int theIndex) const
 {
-	bool a = theIndex < 0;
-	bool b = theIndex >= listSize;
 	bool ret = !(theIndex < 0 || theIndex > listSize);
 	return ret;
 }

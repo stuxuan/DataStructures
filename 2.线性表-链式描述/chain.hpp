@@ -8,7 +8,7 @@ class Chain :public LinearList<T>
 protected:
 	ChainNode<T>* firstNode;
 	int listSize;
-	void checkIndex(int theIndex) const;
+	bool checkIndex(int theIndex) const;
 
 public:
 	Chain(int initialCapacity = 10);
@@ -115,6 +115,16 @@ void Chain<T>::erase(int theIndex)
 			deleteNode = firstNode;
 			firstNode = firstNode->next;
 		}
+		else if (theIndex < listSize - 1)
+		{
+			ChainNode<T>* p = firstNode;
+			for (int i = 0; i < theIndex - 1; i++)
+			{
+				p = p->next;
+			}
+			deleteNode = p->next;
+			p->next = p->next->next;
+		}
 		else
 		{
 			ChainNode<T>* p = firstNode;
@@ -122,8 +132,8 @@ void Chain<T>::erase(int theIndex)
 			{
 				p = p->next;
 			}
-			deleteNode = p->next;
-			p->next = p->next->next;
+			deleteNode = p;
+			p->next = NULL;
 		}
 		listSize--;
 		delete deleteNode;
@@ -159,8 +169,15 @@ void Chain<T>::output()
 	ChainNode<T>* currentNode = firstNode;
 	while (currentNode != NULL)
 	{
-		cout << currentNode->element << "  ";
+		cout << currentNode->element << " ";
 		currentNode = currentNode->next;
 	}
 	cout << endl;
+}
+
+template<class T>
+bool Chain<T>::checkIndex(int theIndex) const
+{
+	bool ret = !(theIndex < 0 || theIndex > listSize);
+	return ret;
 }

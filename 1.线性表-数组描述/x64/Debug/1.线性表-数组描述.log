@@ -1,29 +1,29 @@
 ﻿  main.cpp
-E:\cpp\DataStructure\1.线性表-数组描述\arrayList.hpp(99,17): warning C4311: “类型强制转换”: 从“_InIt”到“int”的指针截断
+F:\Visual Studio Solution\DataStructure\1.线性表-数组描述\arrayList.hpp(102,1): warning C4311: “类型强制转换”: 从“_InIt”到“int”的指针截断
           with
           [
               _InIt=int *
           ]
-E:\cpp\DataStructure\1.线性表-数组描述\arrayList.hpp(98,1): message : 在编译 类 模板 成员函数“int ArrayList<int>::indexOf(const T &) const”时
+F:\Visual Studio Solution\DataStructure\1.线性表-数组描述\arrayList.hpp(101): message : 在编译 类 模板 成员函数“int ArrayList<int>::indexOf(const T &) const”时
           with
           [
               T=int
           ]
-E:\cpp\DataStructure\1.线性表-数组描述\main.cpp(5,46): message : 查看对正在编译的 类 模板 实例化“ArrayList<int>”的引用
-E:\cpp\DataStructure\1.线性表-数组描述\arrayList.hpp(99,17): warning C4302: “类型强制转换”: 从“_InIt”到“int”截断
+F:\Visual Studio Solution\DataStructure\1.线性表-数组描述\main.cpp(5): message : 查看对正在编译的 类 模板 实例化“ArrayList<int>”的引用
+F:\Visual Studio Solution\DataStructure\1.线性表-数组描述\arrayList.hpp(102,1): warning C4302: “类型强制转换”: 从“_InIt”到“int”截断
           with
           [
               _InIt=int *
           ]
-E:\cpp\DataStructure\1.线性表-数组描述\arrayList.hpp(100,47): warning C4311: “类型强制转换”: 从“T *const ”到“int”的指针截断
+F:\Visual Studio Solution\DataStructure\1.线性表-数组描述\arrayList.hpp(103,1): warning C4311: “类型强制转换”: 从“T *const ”到“int”的指针截断
           with
           [
               T=int
           ]
-E:\cpp\DataStructure\1.线性表-数组描述\arrayList.hpp(100,47): warning C4302: “类型强制转换”: 从“T *const ”到“int”截断
+F:\Visual Studio Solution\DataStructure\1.线性表-数组描述\arrayList.hpp(103,1): warning C4302: “类型强制转换”: 从“T *const ”到“int”截断
           with
           [
               T=int
           ]
-E:\cpp\DataStructure\1.线性表-数组描述\arrayList.hpp(93): warning C4715: “ArrayList<int>::get”: 不是所有的控件路径都返回值
-  1.线性表-数组描述.vcxproj -> E:\cpp\DataStructure\x64\Debug\1.线性表-数组描述.exe
+F:\Visual Studio Solution\DataStructure\1.线性表-数组描述\arrayList.hpp(96): warning C4715: “ArrayList<int>::get”: 不是所有的控件路径都返回值
+  1.线性表-数组描述.vcxproj -> F:\Visual Studio Solution\DataStructure\x64\Debug\1.线性表-数组描述.exe

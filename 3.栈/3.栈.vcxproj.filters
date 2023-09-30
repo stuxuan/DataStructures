@@ -13,5 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\线性表源文件">
+      <UniqueIdentifier>{586aa39a-cc61-47fa-962c-c87fa2037cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\栈">
+      <UniqueIdentifier>{0d18b790-06b5-4a9d-b7af-afa1ec4a87d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="linearList.h">
+      <Filter>头文件\线性表源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="arrayList.hpp">
+      <Filter>头文件\线性表源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="derivedLinkedStack.hpp">
+      <Filter>头文件\栈</Filter>
+    </ClInclude>
+    <ClInclude Include="derivedArrayStack.hpp">
+      <Filter>头文件\栈</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>头文件\栈</Filter>
+    </ClInclude>
+    <ClInclude Include="chain.hpp">
+      <Filter>头文件\线性表源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chainNode.h">
+      <Filter>头文件\线性表源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

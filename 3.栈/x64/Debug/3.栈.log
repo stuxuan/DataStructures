@@ -1,0 +1,37 @@
+﻿  main.cpp
+F:\Visual Studio Solution\DataStructure\3.栈\arrayList.hpp(100,1): warning C4311: “类型强制转换”: 从“_InIt”到“int”的指针截断
+          with
+          [
+              _InIt=char *
+          ]
+F:\Visual Studio Solution\DataStructure\3.栈\arrayList.hpp(99): message : 在编译 类 模板 成员函数“int ArrayList<T>::indexOf(const T &) const”时
+          with
+          [
+              T=char
+          ]
+F:\Visual Studio Solution\DataStructure\3.栈\derivedArrayStack.hpp(7): message : 查看对正在编译的 类 模板 实例化“ArrayList<T>”的引用
+          with
+          [
+              T=char
+          ]
+F:\Visual Studio Solution\DataStructure\3.栈\main.cpp(6): message : 查看对正在编译的 类 模板 实例化“DerivedArrayStack<char>”的引用
+F:\Visual Studio Solution\DataStructure\3.栈\arrayList.hpp(100,1): warning C4302: “类型强制转换”: 从“_InIt”到“int”截断
+          with
+          [
+              _InIt=char *
+          ]
+F:\Visual Studio Solution\DataStructure\3.栈\arrayList.hpp(101,1): warning C4311: “类型强制转换”: 从“T *const ”到“int”的指针截断
+          with
+          [
+              T=char
+          ]
+F:\Visual Studio Solution\DataStructure\3.栈\arrayList.hpp(101,1): warning C4302: “类型强制转换”: 从“T *const ”到“int”截断
+          with
+          [
+              T=char
+          ]
+F:\Visual Studio Solution\DataStructure\3.栈\chain.hpp(92): warning C4715: “Chain<char>::get”: 不是所有的控件路径都返回值
+F:\Visual Studio Solution\DataStructure\3.栈\derivedLinkedStack.hpp(22): warning C4715: “DerivedLinkedStack<char>::top”: 不是所有的控件路径都返回值
+F:\Visual Studio Solution\DataStructure\3.栈\arrayList.hpp(94): warning C4715: “ArrayList<char>::get”: 不是所有的控件路径都返回值
+F:\Visual Studio Solution\DataStructure\3.栈\derivedArrayStack.hpp(22): warning C4715: “DerivedArrayStack<char>::top”: 不是所有的控件路径都返回值
+  3.栈.vcxproj -> F:\Visual Studio Solution\DataStructure\x64\Debug\3.栈.exe

@@ -1,0 +1,3 @@
+﻿  main.cpp
+F:\Visual Studio Solution\DataStructure\2.线性表-链式描述\chain.hpp(92): warning C4715: “Chain<int>::get”: 不是所有的控件路径都返回值
+  2.线性表-链式描述.vcxproj -> F:\Visual Studio Solution\DataStructure\x64\Debug\2.线性表-链式描述.exe
