@@ -141,7 +141,6 @@
   <ItemGroup>
     <ClInclude Include="binaryTree.h" />
     <ClInclude Include="binaryTreeNode.h" />
-    <ClInclude Include="booster.h" />
     <ClInclude Include="linkedBinaryTree.hpp" />
   </ItemGroup>
   <ItemGroup>

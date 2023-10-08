@@ -15,7 +15,7 @@ public:
     // 构造函数
     linkedBinaryTree() { root = NULL; treeSize = 0; }
     // 析构函数
-    ~linkedBinaryTree() { erase(); };
+    ~linkedBinaryTree() { cout << "析构遍历: "; erase(); };
     // 二叉树是否为空
     bool empty() const { return treeSize == 0; }
     // 二叉树大小
