@@ -1,3 +1,3 @@
-﻿D:\Microsoft Visual Studio\Visual Studio 2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(5.跳表和队列.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+﻿D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(5.跳表和队列.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
   main.cpp
-  5.跳表和队列.vcxproj -> F:\Visual Studio Solution\DataStructure\x64\Debug\5.跳表和散列.exe
+  5.跳表和队列.vcxproj -> E:\cpp\DataStructure\x64\Debug\5.跳表和散列.exe

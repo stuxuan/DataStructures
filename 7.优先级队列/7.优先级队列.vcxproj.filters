@@ -13,13 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\二叉树">
+      <UniqueIdentifier>{2f10f217-2333-4bab-afd7-db3028c44562}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="maxProrityQueue.cpp">
+    <ClCompile Include="maxPriorityQueue.h">
       <Filter>头文件</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="binaryTree.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="maxHeap.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxHblt.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedBinaryTree.hpp">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="binaryTreeNode.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

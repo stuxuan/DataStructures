@@ -1,0 +1,4 @@
+﻿  main.cpp
+E:\cpp\DataStructure\7.优先级队列\maxHeap.hpp(26): warning C4172: 返回局部变量或临时变量的地址
+E:\cpp\DataStructure\7.优先级队列\maxHblt.hpp(20): warning C4172: 返回局部变量或临时变量的地址
+  7.优先级队列.vcxproj -> E:\cpp\DataStructure\x64\Debug\7.优先级队列.exe

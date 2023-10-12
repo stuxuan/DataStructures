@@ -143,7 +143,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="maxProrityQueue.cpp" />
+    <ClCompile Include="binaryTree.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="maxPriorityQueue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="binaryTreeNode.h" />
+    <ClInclude Include="linkedBinaryTree.hpp" />
+    <ClInclude Include="maxHblt.hpp" />
+    <ClInclude Include="maxHeap.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
