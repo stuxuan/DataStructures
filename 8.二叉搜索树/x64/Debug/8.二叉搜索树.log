@@ -1,0 +1,1036 @@
+﻿  bsTree.h
+E:\cpp\DataStructure\8.二叉搜索树\dictionary.h(14,14): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+E:\cpp\DataStructure\8.二叉搜索树\dictionary.h(19,2): message : 查看对正在编译的 类 模板 实例化“dictionary<K,E>”的引用
+E:\cpp\DataStructure\8.二叉搜索树\dictionary.h(14,1): error C2433: “dictionary<K,E>::pair”: 不允许在数据声明中使用“virtual”
+E:\cpp\DataStructure\8.二叉搜索树\dictionary.h(14,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\cpp\DataStructure\8.二叉搜索树\dictionary.h(14): error C2238: 意外的标记位于“;”之前
+E:\cpp\DataStructure\8.二叉搜索树\dictionary.h(18,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\cpp\DataStructure\8.二叉搜索树\dictionary.h(18,32): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+  main.cpp
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): error C2679: 二元“<<”: 没有找到接受“T”类型的右操作数的运算符(或没有可接受的转换)
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(475,39): message : 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(443,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(425,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(407,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(389,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(371,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(353,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(335,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(317,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(298,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(272,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(253,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(219,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(201,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(195,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(189,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(184,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(1075,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“const std::error_code &”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 原因如下: 无法从“T”转换为“const std::error_code”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(998,9): message : 或    “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61): message : “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”: 无法推导“__formal”的 模板 参数
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(940,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“unsigned char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(934,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“const unsigned char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(929,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“signed char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(923,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“const signed char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(887,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 模板 参数“_Elem”不明确
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : 可能是“T”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : 或    “char”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 无法从“T”推导出“_Elem”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(844,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”: 无法从“T”推导出“const _Elem *”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(806,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(761,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(725,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(681,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(3629,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“T”推导出“const std::unique_ptr<_Ty2,_Dx2> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(1976,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”: 无法从“T”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\xstring(5221,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“T”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\xstring(5221,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“T”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(1976,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”: 无法从“T”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(3629,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“T”推导出“const std::unique_ptr<_Ty2,_Dx2> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(681,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(725,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(761,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(806,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(844,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”: 无法从“T”推导出“const _Elem *”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(887,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 模板 参数“_Elem”不明确
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : 可能是“T”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : 或    “char”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 无法从“T”推导出“_Elem”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(923,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“const signed char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(929,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“signed char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(934,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“const unsigned char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(940,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“unsigned char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(998,9): message : 或    “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61): message : “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”: 无法推导“__formal”的 模板 参数
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(1075,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : “初始化”: 无法从“T”转换为“const std::error_code &”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 原因如下: 无法从“T”转换为“const std::error_code”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(61,9): message : 尝试匹配参数列表“(std::ostream, T)”时
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(58,1): message : 在编译 类 模板 成员函数“void linkedBinaryTree<std::pair<const K,E>>::m_preOrder(binaryTreeNode<std::pair<const K,E>> *)”时
+          with
+          [
+              K=int,
+              E=char
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(28,33): message : 请参阅 "linkedBinaryTree<std::pair<const K,E>>::preOrder" 中对 "linkedBinaryTree<std::pair<const K,E>>::m_preOrder" 的第一个引用
+          with
+          [
+              K=int,
+              E=char
+          ]
+E:\cpp\DataStructure\8.二叉搜索树\binarySearchTree.hpp(8,54): message : 查看对正在编译的 类 模板 实例化“linkedBinaryTree<std::pair<const K,E>>”的引用
+          with
+          [
+              K=int,
+              E=char
+          ]
+E:\cpp\DataStructure\8.二叉搜索树\main.cpp(9,30): message : 查看对正在编译的 类 模板 实例化“binarySearchTree<int,char>”的引用
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): error C2679: 二元“<<”: 没有找到接受“T”类型的右操作数的运算符(或没有可接受的转换)
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(475,39): message : 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(443,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(425,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(407,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(389,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(371,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(353,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(335,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(317,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(298,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(272,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(253,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(219,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(201,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(195,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(189,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(184,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(1075,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“const std::error_code &”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 原因如下: 无法从“T”转换为“const std::error_code”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(998,9): message : 或    “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,1): message : “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”: 无法推导“__formal”的 模板 参数
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(940,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“unsigned char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(934,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“const unsigned char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(929,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“signed char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(923,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“const signed char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(887,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 模板 参数“_Elem”不明确
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : 可能是“T”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : 或    “char”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 无法从“T”推导出“_Elem”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(844,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”: 无法从“T”推导出“const _Elem *”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(806,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(761,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(725,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(681,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(3629,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“T”推导出“const std::unique_ptr<_Ty2,_Dx2> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(1976,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”: 无法从“T”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\xstring(5221,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“T”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\xstring(5221,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“T”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(1976,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”: 无法从“T”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(3629,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“T”推导出“const std::unique_ptr<_Ty2,_Dx2> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(681,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(725,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(761,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(806,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(844,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”: 无法从“T”推导出“const _Elem *”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(887,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 模板 参数“_Elem”不明确
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : 可能是“T”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : 或    “char”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 无法从“T”推导出“_Elem”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(923,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“const signed char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(929,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“signed char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(934,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“const unsigned char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(940,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“unsigned char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(998,9): message : 或    “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,1): message : “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”: 无法推导“__formal”的 模板 参数
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(1075,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : “初始化”: 无法从“T”转换为“const std::error_code &”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 原因如下: 无法从“T”转换为“const std::error_code”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(74,9): message : 尝试匹配参数列表“(std::ostream, T)”时
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(70,1): message : 在编译 类 模板 成员函数“void linkedBinaryTree<std::pair<const K,E>>::m_inOrder(binaryTreeNode<std::pair<const K,E>> *)”时
+          with
+          [
+              K=int,
+              E=char
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(31,31): message : 请参阅 "linkedBinaryTree<std::pair<const K,E>>::inOrder" 中对 "linkedBinaryTree<std::pair<const K,E>>::m_inOrder" 的第一个引用
+          with
+          [
+              K=int,
+              E=char
+          ]
+E:\cpp\DataStructure\8.二叉搜索树\binarySearchTree.hpp(19,64): message : 请参阅 "binarySearchTree<int,char>::ascend" 中对 "linkedBinaryTree<std::pair<const K,E>>::inOrder" 的第一个引用
+          with
+          [
+              K=int,
+              E=char
+          ]
+E:\cpp\DataStructure\8.二叉搜索树\main.cpp(16,10): message : 请参阅 "main" 中对 "binarySearchTree<int,char>::ascend" 的第一个引用
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): error C2679: 二元“<<”: 没有找到接受“T”类型的右操作数的运算符(或没有可接受的转换)
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(475,39): message : 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(443,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(425,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(407,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(389,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(371,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(353,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(335,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(317,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(298,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(272,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(253,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(219,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(201,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(195,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(189,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(184,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(1075,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“const std::error_code &”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 原因如下: 无法从“T”转换为“const std::error_code”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(998,9): message : 或    “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,1): message : “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”: 无法推导“__formal”的 模板 参数
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(940,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“unsigned char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(934,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“const unsigned char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(929,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“signed char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(923,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“const signed char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(887,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 模板 参数“_Elem”不明确
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : 可能是“T”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : 或    “char”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 无法从“T”推导出“_Elem”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(844,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”: 无法从“T”推导出“const _Elem *”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(806,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(761,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(725,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(681,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(3629,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“T”推导出“const std::unique_ptr<_Ty2,_Dx2> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(1976,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”: 无法从“T”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\xstring(5221,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“T”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\xstring(5221,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“T”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(1976,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”: 无法从“T”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(3629,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“T”推导出“const std::unique_ptr<_Ty2,_Dx2> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(681,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(725,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(761,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(806,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(844,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”: 无法从“T”推导出“const _Elem *”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(887,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 模板 参数“_Elem”不明确
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : 可能是“T”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : 或    “char”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 无法从“T”推导出“_Elem”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(923,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“const signed char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(929,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“signed char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(934,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“const unsigned char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(940,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“unsigned char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(998,9): message : 或    “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,1): message : “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”: 无法推导“__formal”的 模板 参数
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(1075,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : “初始化”: 无法从“T”转换为“const std::error_code &”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 原因如下: 无法从“T”转换为“const std::error_code”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(86,9): message : 尝试匹配参数列表“(std::ostream, T)”时
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(81,1): message : 在编译 类 模板 成员函数“void linkedBinaryTree<std::pair<const K,E>>::m_postOrder(binaryTreeNode<std::pair<const K,E>> *)”时
+          with
+          [
+              K=int,
+              E=char
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(34,35): message : 请参阅 "linkedBinaryTree<std::pair<const K,E>>::postOrder" 中对 "linkedBinaryTree<std::pair<const K,E>>::m_postOrder" 的第一个引用
+          with
+          [
+              K=int,
+              E=char
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): error C2679: 二元“<<”: 没有找到接受“T”类型的右操作数的运算符(或没有可接受的转换)
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(475,39): message : 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(443,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(425,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(407,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(389,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(371,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(353,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(335,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(317,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(298,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(272,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(253,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(219,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(201,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(195,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(189,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(184,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(1075,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“const std::error_code &”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 原因如下: 无法从“T”转换为“const std::error_code”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(998,9): message : 或    “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,1): message : “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”: 无法推导“__formal”的 模板 参数
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(940,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“unsigned char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(934,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“const unsigned char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(929,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“signed char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(923,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“const signed char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(887,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 模板 参数“_Elem”不明确
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : 可能是“T”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : 或    “char”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 无法从“T”推导出“_Elem”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(844,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”: 无法从“T”推导出“const _Elem *”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(806,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(761,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(725,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(681,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(3629,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“T”推导出“const std::unique_ptr<_Ty2,_Dx2> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(1976,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”: 无法从“T”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\xstring(5221,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“T”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\xstring(5221,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“T”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(1976,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”: 无法从“T”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\memory(3629,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“T”推导出“const std::unique_ptr<_Ty2,_Dx2> &”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(681,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(725,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(761,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“const char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(806,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(844,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”: 无法从“T”推导出“const _Elem *”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(887,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 模板 参数“_Elem”不明确
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : 可能是“T”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : 或    “char”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 无法从“T”推导出“_Elem”的 模板 参数
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(923,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“const signed char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(929,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“signed char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(934,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“const unsigned char *”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(940,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“unsigned char”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(998,9): message : 或    “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,1): message : “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”: 无法推导“__formal”的 模板 参数
+D:\Microsoft\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\include\ostream(1075,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : “初始化”: 无法从“T”转换为“const std::error_code &”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 原因如下: 无法从“T”转换为“const std::error_code”
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,18): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(96,9): message : 尝试匹配参数列表“(std::ostream, T)”时
+          with
+          [
+              T=std::pair<const int,char>
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(92,1): message : 在编译 类 模板 成员函数“void linkedBinaryTree<std::pair<const K,E>>::m_levelOrder(binaryTreeNode<std::pair<const K,E>> *)”时
+          with
+          [
+              K=int,
+              E=char
+          ]
+E:\cpp\DataStructure\6.二叉树\linkedBinaryTree.hpp(37,37): message : 请参阅 "linkedBinaryTree<std::pair<const K,E>>::levelOrder" 中对 "linkedBinaryTree<std::pair<const K,E>>::m_levelOrder" 的第一个引用
+          with
+          [
+              K=int,
+              E=char
+          ]
+  正在生成代码...
